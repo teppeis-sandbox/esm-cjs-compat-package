@@ -24,5 +24,5 @@ or
 ```js
 // from CJS
 const foo = require('esm-cjs-compat-pacakge');
-console.log(foo); // foo!
+console.log(foo.default); // foo!
 ```
