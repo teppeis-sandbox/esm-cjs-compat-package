@@ -1,0 +1,24 @@
+{
+  "name": "esm-cjs-compat-package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index",
+  "scripts": {
+    "build": "babel src -d cjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/teppeis-sandbox/esm-cjs-compat-package.git"
+  },
+  "keywords": [],
+  "author": "Teppei Sato <teppeis@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/teppeis-sandbox/esm-cjs-compat-package/issues"
+  },
+  "homepage": "https://github.com/teppeis-sandbox/esm-cjs-compat-package#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.24.1"
+  }
+}
