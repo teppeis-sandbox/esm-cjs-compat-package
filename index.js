@@ -1,3 +1,3 @@
 'use strict';
 
-module.exports = require('./cjs');
+module.exports = require('./cjs').default;

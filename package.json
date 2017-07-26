@@ -4,7 +4,7 @@
   "description": "",
   "main": "index",
   "scripts": {
-    "build": "babel src -d cjs"
+    "build": "babel src -d cjs -x .mjs"
   },
   "repository": {
     "type": "git",
