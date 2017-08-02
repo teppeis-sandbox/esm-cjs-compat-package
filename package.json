@@ -4,7 +4,8 @@
   "description": "",
   "main": "index",
   "scripts": {
-    "build": "babel src -d cjs -x .mjs"
+    "build": "babel src -d cjs -x .mjs",
+    "test": "$NODE_EXE test/cjs.js && $NODE_EXE test/esm.mjs"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   "homepage": "https://github.com/teppeis-sandbox/esm-cjs-compat-package#readme",
   "devDependencies": {
     "babel-cli": "^6.24.1",
-    "babel-plugin-transform-es2015-modules-commonjs": "^6.24.1"
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.24.1",
+    "tape": "^4.8.0"
   }
 }
